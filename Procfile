@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -Ddw.http.port=$PORT -Ddw.http.adminPort=$PORT -cp target/DWClient-1.0-SNAPSHOT.jar com.codegence.DWClient.DWClientService server DWClient.yml
