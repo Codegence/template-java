@@ -45,6 +45,12 @@ public class RecyclerResource {
         return action;
     }
 
+    @DELETE
+    @Timed
+    public void handleLost(@PathParam("sectorId") Integer sectorId, @PathParam("factionId") Integer factionId,
+                              @PathParam("id") Integer id, Construct construct) {
+    }	
+    
     public static float[] getRecyclerPosition() {
         return recyclerPosition;
     }
